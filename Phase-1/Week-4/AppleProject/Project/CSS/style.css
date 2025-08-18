@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+img {
+  max-width: 100%;
+}
+body {
+  font-size: 20px;
+  font-family: "Abyssinica SIL", sans-serif;
+}
+/* Header Style */
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  font-weight: 200;
+  font-size: 0.75em;
+}
+.main-header ul {
+  display: flex;
+  justify-content: space-between;
+}
+.header-links {
+  width: 980px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.main-header .header-links ul li a {
+  text-decoration: none;
+  color: black;
+}
+.main-header ul {
+  list-style: none;
+}
+.main-header .header-links ul li {
+  display: inline-block;
+  padding: 14px 0 8px;
+  height: 55px;
+  opacity: 0.8;
+}
+.main-header .header-links ul li:hover {
+  opacity: 1;
+}
+.logo-link,
+.search-link,
+.cart-link {
+  width: 18px;
+  display: block;
+  color: black;
+}
+.main-header .header-links ul li.logo-link {
+  padding: 14px 0 10px;
+}
+.main-header .header-links ul li.search-link {
+  padding: 14px 0 8px;
+}
+.main-header .header-links ul li.cart-link {
+  padding: 12px 0 10px;
+}
+/* Footer section part */
+footer {
+  background-color: #f5f5f7;
+  color: #8e8e8f;
+  font-size: 0.65em;
+}
+.footer-text {
+  width: 980px;
+  padding: 20px 10px;
+  margin: 0 auto;
+}
+footer p {
+  margin: 15px 0;
+  font-weight: 500;
+}
+.footer-links {
+  width: 980px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+  margin: 0 auto;
+}
+.footer-links ul {
+  list-style: none;
+  padding-bottom: 20px;
+}
+.footer-links h3 {
+  font-size: 13px;
+  color: #322929;
+}
+.footer-links ul li {
+  padding: 5px 0;
+  font-size: 0.9em;
+}
+.footer-links a {
+  text-decoration: none;
+  color: #444445;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+}
+.last-bottom {
+  border-bottom: 1px solid #d2d2d7;
+  padding-bottom: 10px;
+  width: 980px;
+  margin: 0 auto;
+}
+.last-bottom p a {
+  color: rgb(8, 137, 188);
+}
+.copyright-wrap {
+  width: 980px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 20px;
+  margin: 10px auto;
+}
+.footer-links-terms ul li {
+  display: inline-block;
+  padding: 0 5px;
+  border-right: 1px solid black;
+}
+.footer-links-terms ul li:last-child {
+  border-right: 0px;
+}
+.footer-links-terms ul li a {
+  text-decoration: none;
+  color: #515154;
+}
+.footer-links-terms ul li a:hover {
+  text-decoration: underline;
+}
+.footer-country {
+  display: inline-block;
+}
+.flag-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-country-name {
+  display: inline-block;
+  vertical-align: top;
+}
+.footer-country-name a:hover {
+  text-decoration: underline;
+}
+.footer-country-name a {
+  text-decoration: none;
+  color: #515154;
+}
+/* mac section style */
+.mac-pro {
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+  background-color: #fafafa;
+  }
+
+.links ul {
+  list-style: none;
+}
+.links {
+  padding: 15px 0;
+}
+.links ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+.links ul li a {
+  text-decoration: none;
+  color: #06c;
+}
+.links ul li a:hover {
+  color: #000;
+}
+.links ul li a::after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+.model {
+  font-size: 0.85em;
+}
+.pro-title {
+  font-weight: 700;
+  font-size: 56px;
+}
+.mac-description {
+  font-size: 2em;
+}
+/* iophone section  */
+.iphone {
+  background-image: url("../images/home/iphone11-pro-bg.jpg");
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 65px 20px;
+  color: #fff;
+}
+.iphone-description {
+  font-size: 26px;
+  padding: 10px 0;
+}
+.price {
+  color: #86868b;
+  font-size: 0.85em;
+}
+/* multiphone style */
+.multi-iphone {
+  background-image: url("../images/home/iphone11-bg.jpg");
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 65px 20px;
+}
+/* watch and phone section */
+.watch-phone {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+}
+.left-side,
+.right-side {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 48.5%;
+  margin: 1% 0.5% 0% 1%;
+  padding-top: 54px;
+}
+.watch-phone .left-side {
+  background-image: url("../images/home/watch-series-5.jpg");
+  height: 640px;
+}
+.watch-phone .right-side {
+  background-image: url("../images/home/apple-card.jpg");
+  height: 640px;
+}
+.description {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.airpads {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+}
+.airpads .left-side {
+  background-image: url("../images/home/apple-tv-background.jpg");
+  height: 598px;
+}
+.airpads .right-side {
+  background-image: url("../images/home/air-pods.jpg");
+  height: 598px;
+  color: #fff;
+  background-size: initial;
+  background-color: #000;
+  background-position: bottom;
+}
+.logo{
+  font-size: 40px;
+	font-weight: bold;
+}
+.tvshow-logo {
+	padding: 180px 0 200px;
+}
+.watch-more-link a {
+	text-decoration: none;
+	font-size: 0.85em;
+}
+.watch-more-link a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 15px;
+}
+/* last body image */
+.mac-ipad{
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+}
+.mac-ipad .left-side{
+  background-image:  url("../images/home/macbook-pro.jpg");
+   
+	background-size: initial;
+	background-color: #fafafa;
+	background-position: bottom;
+  height: 630px;
+}
+.mac-ipad .right-side{
+  background: url("../images/home/new-ipad.jpg") ;
+  background-position: initial;
+  height: 630px;
+  background-position: bottom;
+}
+
+/* footer text link color */
+.footer-text p a{
+  color: #5c5c5c;
+}
