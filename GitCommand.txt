@@ -1,0 +1,35 @@
+Helpful Branch Commands
+Command	                       Description
+
+branch management
+
+git branch	                 Show all local branches
+git branch <branch-name>     create a new branch
+git branch -a	             Show local + remote branches
+git checkout -b <branch-name>  create and switch to another branch
+git branch -d <branch-name>  delete the local branch 
+git checkout <branch-name>	 Switch to another branch
+git push origin branch-name	 Push your branch to GitHub
+git pull origin main	     Get the latest main branch updates
+git merge muller	         Merge muller branch into main branch
+git --version	             Check your installed Git version
+git config --global user.name "Your Name"	        Set your Git username
+git config --global user.email "your@email.com"	    Set your Git email
+git config --list	                                Show all Git configurations
+git init                     Initialize a new Git repository in the current folder
+
+
+Workflow Commands
+
+git status	                Check the current status of your repo
+git add <file>	                Add a single file to staging
+git add .	                Add all changes to staging
+git commit -m "commit message"	Save changes with a message
+git log	                    Show commit history
+
+
+remove and rename git Commands
+
+git rm <file>             remove file from git 
+git mv <old> <new>        rename or move a file
+

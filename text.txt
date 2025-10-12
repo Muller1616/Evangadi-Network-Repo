@@ -1,0 +1,206 @@
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi (master)
+$ cd Phase-3
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3 (master)
+$ mkdir Week-14
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3 (master)
+$ mkdir BashPractice
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3 (master)      
+$ remove BashPractice
+bash: remove: command not found
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3 (master)      
+$ rv BashPractice
+bash: rv: command not found
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3 (master)      
+$ rmdir BashPracrice
+rmdir: failed to remove 'BashPracrice': No such file or directory
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3 (master)      
+$ rmdir BashPractice
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3 (master)      
+$ cd Week-14
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14 (master)
+$ mkdir BashPractice
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadr)
+$ cd BashPractice
+r)
+$ cd BashPractice
+r)
+$ cd BashPractice
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Piiiceicice iiciciciiiiice (master)
+$ mkdir BashText
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice (master)
+$ touch myTextFile.txt
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice (master)
+$ echo "Hello bash" >myTextFile.txt
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice (master)
+$ mv myTextFile.txt myTextPractice.txt
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice (master)
+$ chmod 776 myTextPractice.txt
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice (master)
+$
+ *  History restored 
+
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi (master)
+$ ls -l myTextPractice.txt
+ls: cannot access 'myTextPractice.txt': No such file or directory
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi (master)
+$ cd Phase-3
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3 (master)
+$ cd Week-14
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14 (master)
+$ ls -l myTextPractice.txt
+ls: cannot access 'myTextPractice.txt': No such file or directory
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14 (master)
+$ ls -l myTextPractice.txt
+ls: cannot access 'myTextPractice.txt': No such file or directory
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14 (master)
+$ cd BashPractice
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice (master)
+$ ls -l myTextPractice.txt
+-rw-r--r-- 1 hp 197611 1677 Oct  4 12:04 myTextPractice.txt
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice (master)
+$ ls -l myTextPractice.txt
+-rw-r--r-- 1 hp 197611 16 Oct  4 16:11 myTextPractice.txt
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice (master)
+$ uname
+MINGW64_NT-10.0-26100
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice (master)
+$ mv BashText BashTest
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice (master)
+$ rmdir
+rmdir: missing operand
+Try 'rmdir --help' for more information.
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice (master)
+$ cd ../
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14 (master)
+$ rmdir BashTest
+rmdir: failed to remove 'BashTest': No such file or directory
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14 (master)
+$ cd BashTest
+bash: cd: BashTest: No such file or directory
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14 (master)
+$ cd BashPractice\
+> 
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice (master)
+$ cd BashTest
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice/BashTest (master)
+$ rm -r BashTest
+rm: cannot remove 'BashTest': No such file or directory
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice/BashTest (master)
+$ rm -ri BashTest
+rm: cannot remove 'BashTest': No such file or directory
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice/BashTest (master)
+$ rmdir BashTest
+rmdir: failed to remove 'BashTest': No such file or directory
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice/BashTest (master)
+$ rmdir BashTest^C
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice/BashTest (master)
+$ ^C
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice/BashTest (master)
+$ ls
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice/BashTest (master)
+$ cd Phase-3
+bash: cd: Phase-3: No such file or directory
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice/BashTest (master)
+$ cd ../
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice (master)
+$ cd ../../
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3 (master)       
+$ ls
+Week-14/
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3 (master)       
+$ cd Week-14
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14 (master)
+$ ls
+BashPractice/
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14 (master)
+$ cd BashPractice
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice (master)
+$ ls
+BashTest/  myTextPractice.txt
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice (master)
+$ ls
+BashTest/
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice (master)
+$ rmdir BashTest
+rmdir: failed to remove 'BashTest': Directory not empty
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice (master)
+$ ls
+BashTest/
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice (master)
+$ cd BashTest
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice/BashTest (master)
+$ ls
+myTextPractice.txt
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice/BashTest (master)
+$ rmdir BashTest
+rmdir: failed to remove 'BashTest': No such file or directory
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice/BashTest (master)
+$ cd ..
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice (master)
+$ rmdir BashTest
+rmdir: failed to remove 'BashTest': Directory not empty
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice (master)
+$ ls BashTest
+myTextPractice.txt
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice (master)
+$ rm -r BashTest
+
+hp@DESKTOP-RVQJ6AG MINGW64 ~/Desktop/Evangadi/Phase-3/Week-14/BashPractice (master)
+$$
+$
