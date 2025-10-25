@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "name": "nodemodulesproject",
+  "version": "1.0.0",
+  "description": "node module practice exercise",
+  "main": "myCollector.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "muller",
+  "license": "ISC"
+}

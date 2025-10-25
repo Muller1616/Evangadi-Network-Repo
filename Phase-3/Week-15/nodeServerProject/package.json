@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "name": "muller",
+  "version": "1.0.0",
+  "main": "myWebServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "this is a simple node server testing exercise",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
